@@ -80,12 +80,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -100,45 +100,45 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1,
@@ -146,26 +146,26 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Bangers', cursive;
-	letter-spacing: 1px;
-	margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-	background-color: #ccc;
+    background-color: #ccc;
 }
 
 h1 {
-	font-size: 6rem;
+    font-size: 6rem;
 }
 
 h2 {
-	font-size: 2rem;
+    font-size: 2rem;
 }
 
 p {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 img {
@@ -173,28 +173,28 @@ img {
 }
 
 .container {
-	max-width: 960px;
-	margin: 1rem auto;
-	padding: 1rem 3rem;
-	background-color: #fff;
-	box-shadow: 2px 2px .4rem rgba(0, 0, 0, .3);
+    max-width: 960px;
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    background-color: #fff;
+    box-shadow: 2px 2px .4rem rgba(0, 0, 0, .3);
 }
 
 header,
 .nav-link {
-	display: flex;
+    display: flex;
 }
 
 header {
-	position: fixed;
-	background-color: #fff;
-	width: 960px;
-	align-items: center;
-	padding: 1rem;
-	box-shadow: 2px 2px .4rem rgba(0, 0, 0, .3);
-	margin: 0 -3rem;
-	top: 0;
-	justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    width: 960px;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 2px 2px .4rem rgba(0, 0, 0, .3);
+    margin: 0 -3rem;
+    top: 0;
+    justify-content: space-between;
 }
 
 @media (max-width: 800px) {
@@ -229,15 +229,15 @@ header {
 }
 
 .link-items {
-	padding: 0 1.5rem;
-	font-weight: bold;
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, .09);
+    padding: 0 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .09);
 }
 
 .link-items a {
-	color: #777;
-	font-size: .8rem;
-	text-decoration: none;
+    color: #777;
+    font-size: .8rem;
+    text-decoration: none;
 }
 
 @media (max-width: 500px) {
@@ -254,7 +254,7 @@ header {
 }
 
 .logo {
-	padding-right: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 @media (max-width: 800px) {
@@ -273,22 +273,22 @@ header {
 }
 
 .hero {
-	margin-top: 5rem;
-	padding: 3rem 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    margin-top: 5rem;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .hero-text {
-	text-align: center;
+    text-align: center;
 }
 
 button {
-	padding: .5rem 2rem;
-	background: transparent;
-	border: 1px solid black;
+    padding: .5rem 2rem;
+    background: transparent;
+    border: 1px solid black;
 }
 
 @media (max-width: 800px) {
@@ -316,12 +316,12 @@ button {
 
 .content-details,
 .services-details {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	padding: 2rem 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .features,
@@ -330,34 +330,45 @@ button {
 .services,
 .product,
 .vision {
-	margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .features,
 .about {
-	flex-basis: 48%;
+    flex-basis: 48%;
 }
 
 .features {
-	margin-right: .5rem;
+    margin-right: .5rem;
 }
 
 .services,
 .product,
 .vision {
-	flex-basis: 31.5%;
+    flex-basis: 31.5%;
+}
+
+@media (max-width: 500px) {
+
+    .features,
+    .about,
+    .services,
+    .product,
+    .vision {
+        flex-basis: 100%;
+    }
 }
 
 address {
-	padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 address p {
-	padding-top: 1rem;
-	line-height: 1.25;
+    padding-top: 1rem;
+    line-height: 1.25;
 }
 
 .copy {
-	margin-top: 2rem;
-	text-align: center;
+    margin-top: 2rem;
+    text-align: center;
 }
