@@ -168,6 +168,10 @@ p {
 	line-height: 1.5;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
 	max-width: 960px;
 	margin: 1rem auto;
@@ -193,6 +197,37 @@ header {
 	justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+    header {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    nav {
+        padding-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-link {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        margin: 0;
+    }
+    header {
+        position: unset;
+        width: 100%;
+        margin: 0;
+        box-shadow: unset;
+    }
+
+    .nav-link {
+        flex-direction: column;
+    }
+}
+
 .link-items {
 	padding: 0 1.5rem;
 	font-weight: bold;
@@ -203,6 +238,19 @@ header {
 	color: #777;
 	font-size: .8rem;
 	text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .link-items {
+        padding: 1rem;
+        border-bottom: 1px solid black
+    }
+    .link-items:nth-of-type(1) {
+        border-top: 1px solid black;
+    }
+    .link-items a {
+        font-size: 1rem;
+    }
 }
 
 .logo {
